@@ -1,0 +1,17 @@
+# ORBIT fixed-three-agent profile.
+#
+# This profile is intentionally narrow: one Researcher coordinates one Executor
+# and one Helper through tmux-backed Codex sessions.
+
+profile = "fixed3"
+roles = ["researcher", "executor", "helper"]
+
+researcher_session = "researcher"
+executor_session = "executor"
+helper_session = "helper"
+
+researcher_submit_keys = "Enter"
+worker_submit_keys = "C-m"
+max_inline_chars = "900"
+
+claude_review_command = "claude -p --dangerously-skip-permissions --output-format json --model opus --effort max"
