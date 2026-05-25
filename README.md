@@ -1,5 +1,7 @@
 # Orbit Multi Researcher
 
+中文读者请看：[README_CN.md](README_CN.md)
+
 Reusable tmux-backed Codex multi-agent framework for Linux servers.
 
 Orbit packages a practical fixed three-agent workflow:
